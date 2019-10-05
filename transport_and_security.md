@@ -23,6 +23,7 @@ Server side the same, there are many possbile entities handling requests, LucidH
 RequestAgent with id
 |
 Handler
+```
 RequestAgent: https://github.com/isomorfeus/isomorfeus-framework/blob/master/ruby/isomorfeus-transport/lib/isomorfeus/transport/request_agent.rb
 Handler: https://github.com/isomorfeus/isomorfeus-framework/blob/master/ruby/isomorfeus-transport/lib/lucid_handler/mixin.rb
 Before Isomorfeus calls into the handler, the first check applied is, if the Handler is actually a valid Handler. Only if that succeeds, the next level is available. A Handler than may provide to many things, may it be different Operation Classes, Object, methods, whatever. If the Handler is valid, control is passed on to it, along with the remaining request information. (bearbeitet) 
